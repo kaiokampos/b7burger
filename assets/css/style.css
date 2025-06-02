@@ -117,9 +117,52 @@ header nav .button:hover{
 .hero .button:hover{
     opacity: 0.8;
 }
-
-
 /* FIM DO HERO */
+
+
+/* INICIO DO SEARCH */
+.search{
+    background-color: #1F1F1F;
+    padding: 80px 0;
+    margin-top: -100px;
+}
+.search .title{
+    font-size: 32px;
+    font-weight: 500;
+}
+.search .sides{
+    display: flex;
+    margin-top: 30px;
+    gap: 100px;
+}
+.search .leftside,
+.search .rightside{
+    flex: 1;
+}
+.search input,
+.search select{
+    width: 100%;
+    color: #FFF;
+    background-color: #2B2B2B;
+    font-size: 24px;
+    outline: none;
+    padding:20px;
+    border: 0;
+    border-radius: 5px;
+}
+.search input{
+    background-image: url(../images/searchIcon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 60px;
+}
+.search select{
+    border-right: 20px solid transparent;
+}
+
+
+/* FIM DO SEARCH */
+
 
 
 /* INICIO DO @MEDIA */
@@ -163,9 +206,20 @@ header .menu-mobile-icon div{
     .hero .rightside img{
         height: 300px;
     }
-
     .hero h1{
         font-size: 44px;
         line-height: 50px;
     }
+
+    .search{
+        padding-bottom: 30px;
+    }
+    .search .title{
+        text-align: center;
+    }
+    .search .sides{
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
