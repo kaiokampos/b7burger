@@ -73,7 +73,28 @@ header nav .button:hover{
 }
 /* FIM DA HEADER */
 
+/* INICIO DO HERO */
+.hero .container{
+    display: flex;
+}
+.hero .leftside,
+.hero .rightside{
+    flex: 1;
+}
 
+.hero .leftside{
+    padding-bottom: 150px;
+}
+.hero .rightside{
+    text-align: center;
+}
+.hero .rightside img{
+    width: auto;
+    height: 600px;
+}
+
+
+/* FIM DO HERO */
 
 
 /* INICIO DO @MEDIA */
